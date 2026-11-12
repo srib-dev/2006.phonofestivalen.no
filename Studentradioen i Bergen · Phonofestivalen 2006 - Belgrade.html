@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Studentradioen i Bergen · Phonofestivalen 2006</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style type="text/css">
+body {
+  margin: 0px;
+  background: url('bakgrunn_2.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "verdana", sans-serif;
+  font-size: 11px;
+  min-width: 550px;
+  line-height: 1.4em;
+  }
+
+A
+{
+	padding: 1px;
+	color: #d00000;
+	text-decoration: none;
+}
+A:hover
+{
+	text-decoration: line-through;	
+}
+#menyen
+{
+	position: absolute;
+	left: 225px;
+	top: 0px;
+	width: 500px;
+}
+#hoved
+{
+	position: absolute;
+	left: 225px;
+	top: 200px;
+	width: 500px;
+	margin-left: 32px;
+	
+}
+
+#hoved img 
+{
+	border: 8px solid #fefefe;
+}
+img
+{
+	margin-bottom: 8px;
+	display: block;
+}
+
+img:hover
+{
+	background: transparent;
+	color: transparent;
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+<map name="phonomeny">
+  <area name="nyheter" shape="poly" coords="7,94,64,95,64,108,9,107,8,94" href="Studentradioen i Bergen · Phonofestivalen 2006 - Nyheter.html" alt="nyheter">
+  <area name="program" shape="poly" coords="71,94,130,96,129,112,71,109,71,94" href="Studentradioen i Bergen · Phonofestivalen 2006 - Program.html" alt="program">
+  <area name="artister" shape="poly" coords="136,96,191,99,190,113,133,111,137,96" href="Studentradioen i Bergen · Phonofestivalen 2006 - Artister.html" alt="artister">
+  <area name="debatter" shape="poly" coords="197,98,256,101,257,115,196,112,197,98" href="Studentradioen i Bergen · Phonofestivalen 2006 - Debatter.html" alt="debatter">
+  <area name="info" shape="poly" coords="264,101,292,102,291,116,263,115,263,101" href="Studentradioen i Bergen · Phonofestivalen 2006 - Info.html" alt="info">
+  <area name="bilder" shape="poly" coords="299,102,341,104,340,117,299,116,298,102" href="Studentradioen i Bergen · Phonofestivalen 2006 - Bilder.html" alt="bilder">
+  <area name="partnere" shape="poly" coords="347,103,408,105,408,119,346,117,348,103" href="Studentradioen i Bergen · Phonofestivalen 2006 - Partnere.html" alt="partnere">
+  <area name="kontakt" shape="poly" coords="415,105,469,107,469,121,413,119,415,105" href="Studentradioen i Bergen · Phonofestivalen 2006 - kontakt.html" alt="kontakt">
+</map>
+
+<div class="innhold">
+
+<div id="menyen">
+	<img src="meny_3.gif" usemap="#phonomeny" border="0">
+</div>
+
+
+  <div id="hoved"> <!-- HER BEGYNNER HOVEDINNHOLDET -->
+	<?
+		$d = $_GET['d'];
+		switch ($d)
+		{
+			case 'nyheter':
+				include('index.php');
+			break;
+			
+			case 'program':
+				include('program.php');
+			break;
+
+			case 'artister':
+				include('artister.php');
+			break;
+
+			case 'debatter':
+				include('debatter.php');
+			break;
+
+			case 'info':
+				include('info.php');
+			break;
+			
+			case 'bilder':
+				include('bilder.php');
+			break;
+
+			case 'partnere':
+				include('partnere.php');
+			break;
+
+			case 'kontakt':
+				include('kontakt.php');
+			break;
+
+			default:
+			?>
+                         <p align="right">
+<a href="Studentradioen i Bergen · Phonofestivalen 2006 - Artister.html#a000153">&laquo; Forrige</a> |
+
+<a href="Studentradioen i Bergen · Phonofestivalen 2006 - Nyheter.html">Gå tilbake</a>
+| <a href="Studentradioen i Bergen · Phonofestivalen 2006 - Artister.html#a000155">Neste &raquo;</a>
+
+</p>
+<br>
+
+<h2>August 11, 2006</h2>
+
+<h3>Belgradeyard Soundsystem </h3>
+
+<p><img alt="belgrade yard mindre.jpg" src="belgrade yard mindre.jpg" width="450" height="307"/></p>
+
+<p>Belgradeyard Soundsystem (BGYSS)er et serbisk kollektiv startet i 1999, og er både et radioprogram, et promoteringsselskap, et produksjonshus for dis-patch festivalen og samtidig et band og dj-kollektiv. Felles for alt dette er interessen for ny, fengende og utfordrende musikk under slagordet "Dont give the people what they want, give them what they need". </p>
+
+<p>BGYSS har gjennom dette arbeidet spilt med folk som DJ Vadim, Four Tet, Caribou, Jamie Lidell, Kevin Blechdom, Monolake, Kid 606, Coldcut, Murcof og ikke minst norske Xploding Plastics.</p>
+
+<p>Live består de av Goran Simonoski og Relja Bobic på programmering, Ivan Antic på kontrabass, Jamal Al Kiswani på energisk saxofon samt live videokunst av Andreja Miric. Resultatet er en sammensetning av elektronisk programmering og akustisk "powerjazz" som de mener høres ut som jazz fremført av et indie/punkband.</p>
+
+<div id="a000154more">
+ <div id="more">
+  
+ </div>
+</div>
+
+<p class="posted">Posted by admin at August 11, 2006 04:47 EM</p>
+			<?
+			break;
+		}
+	?>
+	<br><br><br><br><br><br>
+  </div> <!-- SLUTT HOVEDINNHOLD -->
+</div>
+</body>
+</html>

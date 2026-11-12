@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Studentradioen i Bergen · Phonofestivalen 2006</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style type="text/css">
+body {
+  margin: 0px;
+  background: url('bakgrunn_2.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "verdana", sans-serif;
+  font-size: 11px;
+  min-width: 550px;
+  line-height: 1.4em;
+  }
+
+A
+{
+	padding: 1px;
+	color: #d00000;
+	text-decoration: none;
+}
+A:hover
+{
+	text-decoration: line-through;	
+}
+#menyen
+{
+	position: absolute;
+	left: 225px;
+	top: 0px;
+	width: 500px;
+}
+#hoved
+{
+	position: absolute;
+	left: 225px;
+	top: 200px;
+	width: 500px;
+	margin-left: 32px;
+	
+}
+
+#hoved img 
+{
+	border: 8px solid #fefefe;
+}
+img
+{
+	margin-bottom: 8px;
+	display: block;
+}
+
+img:hover
+{
+	background: transparent;
+	color: transparent;
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+<map name="phonomeny">
+  <area name="nyheter" shape="poly" coords="7,94,64,95,64,108,9,107,8,94" href="Studentradioen i Bergen · Phonofestivalen 2006 - Nyheter.html" alt="nyheter">
+  <area name="program" shape="poly" coords="71,94,130,96,129,112,71,109,71,94" href="Studentradioen i Bergen · Phonofestivalen 2006 - Program.html" alt="program">
+  <area name="artister" shape="poly" coords="136,96,191,99,190,113,133,111,137,96" href="Studentradioen i Bergen · Phonofestivalen 2006 - Artister.html" alt="artister">
+  <area name="debatter" shape="poly" coords="197,98,256,101,257,115,196,112,197,98" href="Studentradioen i Bergen · Phonofestivalen 2006 - Debatter.html" alt="debatter">
+  <area name="info" shape="poly" coords="264,101,292,102,291,116,263,115,263,101" href="Studentradioen i Bergen · Phonofestivalen 2006 - Info.html" alt="info">
+  <area name="bilder" shape="poly" coords="299,102,341,104,340,117,299,116,298,102" href="Studentradioen i Bergen · Phonofestivalen 2006 - Bilder.html" alt="bilder">
+  <area name="partnere" shape="poly" coords="347,103,408,105,408,119,346,117,348,103" href="Studentradioen i Bergen · Phonofestivalen 2006 - Partnere.html" alt="partnere">
+  <area name="kontakt" shape="poly" coords="415,105,469,107,469,121,413,119,415,105" href="Studentradioen i Bergen · Phonofestivalen 2006 - kontakt.html" alt="kontakt">
+</map>
+
+<div class="innhold">
+
+<div id="menyen">
+	<img src="meny_3.gif" usemap="#phonomeny" border="0">
+</div>
+
+
+  <div id="hoved"> <!-- HER BEGYNNER HOVEDINNHOLDET -->
+	<?
+		$d = $_GET['d'];
+		switch ($d)
+		{
+			case 'nyheter':
+				include('index.php');
+			break;
+			
+			case 'program':
+				include('program.php');
+			break;
+
+			case 'artister':
+				include('artister.php');
+			break;
+
+			case 'debatter':
+				include('debatter.php');
+			break;
+
+			case 'info':
+				include('info.php');
+			break;
+			
+			case 'bilder':
+				include('bilder.php');
+			break;
+
+			case 'partnere':
+				include('partnere.php');
+			break;
+
+			case 'kontakt':
+				include('kontakt.php');
+			break;
+
+			default:
+			?>
+                         <p align="right">
+<a href="Studentradioen i Bergen · Phonofestivalen 2006 - Artister.html#a000155">&laquo; Forrige</a> |
+
+<a href="Studentradioen i Bergen · Phonofestivalen 2006 - Nyheter.html">Gå tilbake</a>
+| <a href="Studentradioen i Bergen · Phonofestivalen 2006 - Artister.html">Neste &raquo;</a>
+
+</p>
+<br>
+
+<h2>August 14, 2006</h2>
+
+<h3>Monomen</h3>
+
+<p><img alt="monomen.jpg" src="monomen.jpg" width="280" height="187"/></p>
+
+<p>Postpunkbandet, som er den eneste rockegruppa i Sørumsand, et lite tettsted utenfor Oslo, har spilt på mange av hovedstadens kredible klubber, steder der publikum må være sju år eldre enn bandet for å se dem. I tillegg til EP-slipp i februar, var Monomen support for Seigmens utsolgte konserter på Rockefeller 17. og 18. februar.  Monomen markerte seg godt på by:Larm i Tromsø, og var et naturlig valg til festivaljobber i sommer til eksempelvis Slottsfjellfestivalen og NuMusic<br/>
+Monomen er 17 år og gode, og ikke gode til å være 17. De følger en retning som kan plasseres rundt den britiske post-punken på slutten av 70tallet. Musikken er atmosfærisk og suggererende med anelser av både støy, pop og dansbarhet. Dunkende trommemaskiner, monotone gitarer, cheesy synthesizere og schizofren vokal er en del av konseptet til Monomen. Noen har til og med kalt dem norges svar på The Strokes, men der går grensen!</p>
+
+<div id="a000156more">
+ <div id="more">
+  
+ </div>
+</div>
+
+<p class="posted">Posted by admin at August 14, 2006 06:40 EM</p>
+			<?
+			break;
+		}
+	?>
+	<br><br><br><br><br><br>
+  </div> <!-- SLUTT HOVEDINNHOLD -->
+</div>
+</body>
+</html>
